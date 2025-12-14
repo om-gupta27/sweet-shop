@@ -137,33 +137,24 @@ http://localhost:3000
 
 sweet-shop/
 │
-├── back/                     # Backend (FastAPI / Python)
-│   ├── main.py               # App entry point
-│   ├── models.py             # Database models
-│   ├── schemas.py            # Pydantic schemas
-│   ├── database.py           # Database configuration
-│   ├── jwt_utils.py          # JWT utilities
-│   ├── auth_utils.py         # Authentication helpers
-│   ├── dependencies.py       # Dependency injection
-│   ├── routes/
-│   │   ├── auth.py            # Authentication routes
-│   │   └── sweets.py          # Sweets-related routes
-│   └── requirements.txt
+├── back/ # Backend (FastAPI)
+│ ├── main.py # Application entry point
+│ ├── database.py # Database configuration
+│ ├── models.py # ORM models
+│ ├── schemas.py # Request/response schemas
+│ ├── routes/ # API routes
+│ │ ├── auth.py # Authentication APIs
+│ │ └── sweets.py # Sweet management APIs
+│ └── requirements.txt
 │
-├── front/                    # Frontend (React)
-│   ├── src/
-│   │   ├── pages/
-│   │   │   ├── Login.js
-│   │   │   ├── Register.js
-│   │   │   └── Sweets.js
-│   │   ├── components/
-│   │   │   └── SweetCard.js
-│   │   ├── api/
-│   │   │   └── api.js
-│   │   ├── utils/
-│   │   │   └── auth.js
-│   │   └── App.js
-│   └── package.json
+├── front/ # Frontend (React)
+│ ├── src/
+│ │ ├── pages/ # Application pages
+│ │ ├── components/ # Reusable UI components
+│ │ ├── api/ # API communication layer
+│ │ ├── utils/ # Auth & helper utilities
+│ │ └── App.js # Root component
+│ └── package.json
 │
 └── README.md
 
