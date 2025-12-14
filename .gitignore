@@ -9,3 +9,4 @@ front/node_modules/
 
 # Env
 .env
+.vs/
