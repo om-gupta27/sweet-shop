@@ -135,24 +135,37 @@ Frontend will run at:
 
 http://localhost:3000
 
-📁 sweet-shop/
-├── 📁 back/                     # Backend (FastAPI / Python)
-│   ├── main.py                  # App entry point
-│   ├── models.py                # Database models
-│   ├── schemas.py               # Pydantic schemas
-│   ├── database.py              # Database configuration
-│   └── 📁 routes/               # API route handlers
-│       ├── auth.py              # Authentication routes
-│       └── sweets.py            # Sweets-related routes
+sweet-shop/
 │
-├── 📁 front/                    # Frontend
-│   └── 📁 src/
-│       ├── 📁 pages/            # Application pages
-│       ├── 📁 api/              # API calls
-│       ├── 📁 utils/            # Utility functions
-│       └── 📁 components/       # Reusable UI components
+├── back/                     # Backend (FastAPI / Python)
+│   ├── main.py               # App entry point
+│   ├── models.py             # Database models
+│   ├── schemas.py            # Pydantic schemas
+│   ├── database.py           # Database configuration
+│   ├── jwt_utils.py          # JWT utilities
+│   ├── auth_utils.py         # Authentication helpers
+│   ├── dependencies.py       # Dependency injection
+│   ├── routes/
+│   │   ├── auth.py            # Authentication routes
+│   │   └── sweets.py          # Sweets-related routes
+│   └── requirements.txt
 │
-└── README.md                    # Project documentation
+├── front/                    # Frontend (React)
+│   ├── src/
+│   │   ├── pages/
+│   │   │   ├── Login.js
+│   │   │   ├── Register.js
+│   │   │   └── Sweets.js
+│   │   ├── components/
+│   │   │   └── SweetCard.js
+│   │   ├── api/
+│   │   │   └── api.js
+│   │   ├── utils/
+│   │   │   └── auth.js
+│   │   └── App.js
+│   └── package.json
+│
+└── README.md
 
 
 🤖 AI Usage Declaration (As Required by Task)
