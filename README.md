@@ -135,29 +135,7 @@ Frontend will run at:
 
 http://localhost:3000
 
-## 📁 Project Structure
 
-sweet-shop/
-├── back/ # Backend (FastAPI)
-│ ├── main.py # Application entry point
-│ ├── models.py # Database models
-│ ├── schemas.py # Data validation schemas
-│ ├── database.py # Database configuration
-│ ├── routes/ # API routes
-│ │ ├── auth.py
-│ │ └── sweets.py
-│ └── requirements.txt
-│
-├── front/ # Frontend (React)
-│ ├── src/
-│ │ ├── pages/
-│ │ ├── components/
-│ │ ├── api/
-│ │ ├── utils/
-│ │ └── App.js
-│ └── package.json
-│
-└── README.md
 
 
 🤖 AI Usage Declaration (As Required by Task)
