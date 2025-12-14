@@ -109,10 +109,15 @@ Each feature was tested before moving to the next implementation step to ensure 
 
 🚀 How to Run the Project
 🔹 Backend Setup
+
 cd back
+
 python -m venv .venv
+
 .\.venv\Scripts\activate   # Windows
+
 pip install -r requirements.txt
+
 uvicorn main:app --reload
 
 
