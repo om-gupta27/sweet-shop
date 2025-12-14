@@ -110,6 +110,8 @@ Each feature was tested before moving to the next implementation step to ensure 
 🚀 How to Run the Project
 🔹 Backend Setup
 cd back
+python -m venv .venv
+.\.venv\Scripts\activate   # Windows
 pip install -r requirements.txt
 uvicorn main:app --reload
 
@@ -155,26 +157,16 @@ http://localhost:3000
 
 🤖 AI Usage Declaration (As Required by Task)
 
-AI assistance was used only as a development aid, including:
+AI tools such as ChatGPT was used only as a development aid, including:
 
 Understanding task requirements
 
-Structuring backend and frontend code
+Designing application architecture
 
 Debugging errors
 
 Improving code clarity and correctness
 
-All logic, decisions, and final implementation were reviewed and validated by the developer.
-AI-generated content was not used blindly and was adapted to meet the task requirements.
+All final implementation decisions and understanding of the system are my own.
+AI was used strictly as a learning and productivity aid.
 
-✅ Task Completion Status
-Requirement	Status
-Authentication & JWT	✅ Completed
-Role-based Access	✅ Completed
-Sweet CRUD	✅ Completed
-Purchase & Restock	✅ Completed
-Search & Filter	✅ Completed
-Frontend UI	✅ Completed
-TDD Consideration	✅ Completed
-AI Usage Disclosure	✅ Completed
