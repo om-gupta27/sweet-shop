@@ -131,9 +131,13 @@ Swagger API docs:
 http://127.0.0.1:8000/docs
 
 🔹 Frontend Setup
+
 cd front
+
 npm install
+
 npm start
+
 
 
 Frontend will run at:
