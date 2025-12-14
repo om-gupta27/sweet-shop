@@ -1,0 +1,42 @@
+.sweets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.sweet-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 14px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
+.sweet-card b {
+  font-size: 16px;
+}
+
+.sweet-card .price {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.sweet-card .qty {
+  color: #374151;
+  margin-left: 6px;
+}
+
+.sweet-card button {
+  margin-top: 10px;
+  margin-right: 6px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  cursor: pointer;
+}
+
+.sweet-card button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
