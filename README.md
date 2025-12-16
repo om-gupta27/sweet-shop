@@ -114,7 +114,7 @@ cd back
 
 py -m venv .venv
 
-.\.venv\Scripts\activate   # Windows
+.venv\Scripts\activate   # Windows
 
 pip install -r requirements.txt
 
