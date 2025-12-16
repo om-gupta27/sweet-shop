@@ -112,7 +112,7 @@ Each feature was tested before moving to the next implementation step to ensure 
 
 cd back
 
-python -m venv .venv
+py -m venv .venv
 
 .\.venv\Scripts\activate   # Windows
 
